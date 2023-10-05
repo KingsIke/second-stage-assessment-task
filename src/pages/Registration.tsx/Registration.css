@@ -1,0 +1,233 @@
+.registrationBackground {
+    background: url("../../assets/DoctorRegistration.svg")no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.registration-tablet-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.registration-custom-border {
+
+    position: relative;
+    border: 1px solid #fff;
+    margin-bottom: 12px;
+    left: 530px;
+
+    margin-top: 30px;
+}
+
+.registration-custom-img {
+    width: 21px;
+    height: 19px;
+    position: absolute;
+    right: 5px;
+    margin-bottom: 2px;
+}
+
+.registration-custom-text {
+    height: 38px;
+}
+
+.registration-custom-heading {
+    margin-top: 2px;
+    color: #3c6aac;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'urbanist';
+}
+
+.registration-custom-content {
+
+    margin-left: 100px;
+}
+
+.registration-custom-subheading {
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+.registration-custom-subheading-text {
+    color: #3c6aac;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.registration-page{
+    margin-bottom: 0px;
+}
+
+.registration-custom-image {
+    margin-left: 120px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 23px;
+}
+
+.registration-custom-image2 {
+    display: none;
+}
+
+.registration-custom-form {
+    width: 724px;
+    border-radius: 12px;
+
+}
+
+.registration-custom-input {
+    margin-bottom: 20px;
+}
+
+.registration-custom-input-field {
+    display: block;
+    width: 724px;
+    height: 47px;
+    border-radius: 12px;
+    border: none;
+    padding: 18px 7px;
+    padding-right: 20px;
+    color: #000;
+    border: 1px solid #7D97C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.registration-custom-input-field::placeholder {
+    color: #ACACAC;
+}
+
+
+.registration-custom-input-field:focus {
+    outline: none;
+    border-color: #7D97C0;
+    box-shadow: 0 0 0 2px #7D97C0;
+}
+
+
+
+
+
+
+
+
+.custom-button {
+    margin-top: 50px;
+    margin-left: 600px;
+    background-color: #3c6aac;;
+}
+
+.custom-submit-button {
+    text-align: center;
+    width: 224px;
+    height: 45px;
+    background: #3c6aac;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #3c6aac;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px;
+}
+
+@media (max-width: 1046px) {
+    .registration-custom-border {
+
+        position: relative;
+        border: 1px solid #fff;
+        margin-bottom: 16px;
+        left: 450px;
+
+        margin-top: 35px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) and (min-width: 320px) {
+
+    .registrationBackground {
+        background: url("");
+        width: 100%;
+        height: 100vh;
+    }
+
+    .registration-tablet-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .registration-custom-content {
+
+        margin-left: 0px;
+    }
+
+    .registration-custom-border {
+        left: 1px;
+        margin-top: 35px;
+    }
+
+    .registration-custom-image {
+        display: none;
+    }
+
+    .registration-custom-image2 {
+        display: block;
+        margin-bottom: 20px;
+        width: 220px;
+        max-width: 400px;
+        margin: 30px auto;
+    }
+
+    .registration-custom-input-field {
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .registration-custom-subheading{
+        margin-left: auto;
+    }
+
+    .registration-custom-subheading-text {
+        color: #3c6aac;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: normal;
+
+
+        white-space: nowrap;
+    }
+
+    .registration-custom-form {
+        margin-top: 30px;
+        width: auto;
+
+    }
+
+    .custom-button {
+        margin-top: 80px;
+        margin-left: auto;
+        padding-left: 20px;
+    }
+
+    .custom-submit-button {
+
+        width: 200px;
+
+    }
+}

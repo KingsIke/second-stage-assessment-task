@@ -1,0 +1,293 @@
+.backgroundDoctor {
+    background: url("../../assets/DoctorRegistration.svg")no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.tablet-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.custom-border {
+
+    position: relative;
+    border: 1px solid #fff;
+    margin-bottom: 16px;
+    left: 530px;
+
+    margin-top: 35px;
+}
+
+.custom-img {
+    width: 21px;
+    height: 19px;
+    position: absolute;
+    right: 5px;
+    margin-bottom: 2px;
+}
+
+.custom-text {
+    height: 38px;
+}
+
+.custom-heading {
+    margin-top: 2px;
+    color: #3c6aac;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'urbanist';
+}
+
+.custom-content {
+
+    margin-left: 70px;
+}
+
+.custom-subheading {
+    height: 46px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+.custom-subheading-text {
+    color: #3c6aac;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.custom-image {
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 23px;
+}
+
+.custom-image2 {
+    display: none;
+}
+
+.custom-form {
+    width: 724px;
+    border-radius: 12px;
+
+}
+
+.custom-input {
+    margin-bottom: 20px;
+}
+
+.custom-input-field {
+    display: block;
+    width: 724px;
+    height: 47px;
+    border-radius: 12px;
+    border: none;
+    padding: 18px 7px;
+    padding-right: 20px;
+    color: #000;
+    border: 1px solid #7D97C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom-input-field::placeholder {
+    color: #ACACAC;
+}
+
+
+.custom-input-field:focus {
+    outline: none;
+    border-color: #7D97C0;
+    box-shadow: 0 0 0 2px #7D97C0;
+}
+
+.custom-select-field:focus {
+    outline: none;
+    border-color: #7D97C0;
+    box-shadow: 0 0 0 2px #7D97C0;
+}
+
+
+.custom-input-row {
+    display: flex;
+    width: 724px;
+    height: 47px;
+    margin-bottom: 20px;
+}
+
+.custom-select {
+    width: 305px;
+    margin-right: 3px;
+}
+
+.custom-select-field {
+    height: 47px;
+    width: 295px;
+    background: #f5f5f5;
+    color: #ACACAC;
+    border: 1px solid #7D97C0;
+    border-radius: 12px;
+    padding: 2.5px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.custom-select-field::placeholder {
+    color: #ACACAC;
+}
+
+.custom-input-date {
+    width: 420px;
+}
+
+
+.custom-input-field-date::placeholder {
+    color: #ACACAC;
+    opacity: 1;
+}
+
+.custom-input-field-date {
+
+    display: block;
+    width: 420px;
+    height: 47px;
+    border-radius: 12px;
+    border: none;
+    padding: 18px 7px;
+    padding-right: 20px;
+    color: #000;
+    border: 1px solid #7D97C0;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.custom-button {
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.custom-submit-button {
+    text-align: center;
+    width: 224px;
+    height: 45px;
+    background: #3c6aac;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #3c6aac;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 4px;
+}
+
+@media (max-width: 1046px) {
+    .custom-border {
+
+        position: relative;
+        border: 1px solid #fff;
+        margin-bottom: 16px;
+        left: 450px;
+
+        margin-top: 35px;
+    }
+
+}
+
+
+@media (max-width: 768px) and (min-width: 320px) {
+    .backgroundDoctor {
+        background: url("");
+    }
+
+    .custom-border {
+        position: relative;
+        border: 1px solid #fff;
+        margin-bottom: 16px;
+        left: 10px;
+        margin-top: 35px;
+    }
+
+    .custom-image2 {
+        display: block;
+        margin: auto;
+        padding-left: 40px;
+    }
+
+    .custom-image {
+        display: none;
+    }
+
+    .custom-content {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .custom-subheading {
+        width: 50%;
+    }
+
+    .custom-subheading-text {
+        color: #3c6aac;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: normal;
+
+        white-space: nowrap;
+    }
+
+    .custom-form {
+        margin-top: 30px;
+        width: auto;
+        padding-left: 15px;
+    }
+
+    .custom-input {
+        width: fit-content;
+    }
+
+    .custom-input-field {
+        width: 350px
+    }
+
+    .custom-input-row {
+        width: 350;
+    }
+
+    .custom-select {
+        width: 140px;
+    }
+
+    .custom-select-field {
+        width: 140px;
+    }
+
+    .custom-input-date {
+        width: 205px;
+    }
+
+    .custom-input-field-date {
+        width: 205px;
+    }
+
+    .custom-button {
+        padding-top: 20px;
+        margin: 40px auto;
+    }
+
+}

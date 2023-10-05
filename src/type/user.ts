@@ -3,8 +3,10 @@
 * */
 interface User {
 	email: string
-	firstname: string
-	lastname: string
+	fullname: string
+	phoneNumber: string
+	password: string
+	confirmPassword: string
 }
 
 

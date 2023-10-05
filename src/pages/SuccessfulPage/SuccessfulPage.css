@@ -1,0 +1,10 @@
+@media (max-width: 425px) and (min-width: 320px) {
+
+    .successful{
+        font-size:25px ;
+        white-space: nowrap;
+    }
+.pagesuccess{
+    margin-top: 20px;
+}
+}
